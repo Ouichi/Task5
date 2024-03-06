@@ -197,7 +197,7 @@ HTTPにおいてWEBサーバからのレスポンスの意味を表示する3桁
 ```
 
 ```mermaid
-flowchart LR
+graph TD;
   START --> MJ & KB & LBJ ;
   MJ --> 1998 & 2002 & 2003 ;
   KB --> 2014 & 2015 & 2016 ;
