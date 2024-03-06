@@ -15,7 +15,7 @@
 
 </details>
 
-**<details><summary>クエリ文字列</summary>**
+**<details><summary>クエリ文字列（Query Parameter）</summary>**
 
 - サーバーに情報を送るためにURLの末尾に付足す変数のこと
 
@@ -34,4 +34,23 @@
 
 </details>
 
+**<details><summary>パス変数（Path Parameter）</summary>**
 
+- 動的な値をパスを一部として指定することがパスパラメータ
+- 例：http://*www*.example.com/user/12345
+
+
+  ここで12345の部分がユーザーIDなどを表す変数となっている
+- 特徴
+  - URLパスに埋め込むので、読み取りが簡単
+  - GETリクエストで主で利用される
+  - データの取得や測定リソースの操作に利用される
+  - 変更がまれないので、キャッシュしやすい
+
+</details>
+
+**<details><summary>クエリ文字列とパス変数の違い</summary>**
+
+
+
+</details>
