@@ -100,6 +100,28 @@ HTTPにおいてWEBサーバからのレスポンスの意味を表示する3桁
 
 **<details><summary>HTTPステータスコードの意味</summary>**
 
+|コード|意味|説明|
+|:--|:--|:--|
+|200|OK|リクエストは成功し、レスポンスとともに要求に応じた情報が返される。|
+|201|Created|リクエストは完了し、新たに作成されたリソースのURIが返される。|
+|400|Bad Request|リクエストが不正である。定義されていないメソッドを使うなど、クライアントのリクエストがおかしい場合に返される。|
+|404|Not Found|未検出。リソース・ページが見つからなかった。|
+|500|Internal Server Error|サーバ内部エラー。サーバ内部にエラーが発生した場合に返される。|
 
+</details>
+
+---
+
+![image](https://github.com/Ouichi/Task5/assets/140411621/0dbf4ec7-b870-44b0-9594-f5b305736fb1)
+
+**<details><summary>レスポンスヘッダー</summary>**
+
+HTTPステータスラインに書ききれないレスポンスの情報
+
+</details>
+
+**<details><summary>レスポンスボディ</summary>**
+
+ホームページの中身
 
 </details>
