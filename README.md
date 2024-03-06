@@ -1,4 +1,4 @@
-# Task5-HTTPにまわる用語
+# Task5-HTTPにまわる用語 \:kissing_closed_eyes: 
 
 **<details><summary>URLとは</summary>**
 
@@ -166,5 +166,26 @@ HTTPにおいてWEBサーバからのレスポンスの意味を表示する3桁
      </table>
     </html>
   ```
+
+</details>
+
+---
+
+**<details><summary>JSON</summary>**
+
+- JavaScript Object Notation
+- JavaScriptにおけるオブジェクトの書き方を参考に作られたデータフォーマット
+- 優れている点は読み書きやすい、処理が重くなりづらい
+- 用途
+  - データ保存用の形式
+  - 異なるプログラミング言語、環境間のデータやり取り
+- 参考サイト
+>https://datamix.co.jp/media/datascience/introduction-to-json/#:~:text=JSON%E3%81%A8%E3%81%AFJavaScript%20Object,%E3%81%A6%E9%96%8B%E7%99%BA%E3%81%95%E3%82%8C%E3%81%BE%E3%81%97%E3%81%9F%E3%80%82
+
+</details>
+
+**<details><summary>JSONを使って何かのデータを表現する</summary>**
+
+- AAA
 
 </details>
