@@ -63,6 +63,8 @@
 
 </details>
 
+---
+
 **<details><summary>HTTPメソッド</summary>**
 
 - GET：
@@ -90,7 +92,13 @@
 
 </details>
 
-**<details><summary>リクエストヘッダー</summary>**
+**<details><summary>HTTPステータスコード</summary>**
+
+HTTPにおいてWEBサーバからのレスポンスの意味を表示する3桁の数字からなるコードである
+
+</details>
+
+**<details><summary>HTTPステータスコードの意味</summary>**
 
 
 
