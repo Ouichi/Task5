@@ -53,7 +53,7 @@
 **<details><summary>クエリ文字列とパス変数の違い</summary>**
 
 - クエリ文字列：特定のリソースを操作し取得する際に必要な情報を入れる
-- パス変数：測定のリソースを識別するために必要な情報を入れる
+- パス変数：特定のリソースを識別するために必要な情報を入れる
 
   https://*example*.com/pathparameter/`{pathparameter}`?`queryparameter1=hogehoge&queryparameter2=fugafuga`
 
