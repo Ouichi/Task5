@@ -114,14 +114,57 @@ HTTPにおいてWEBサーバからのレスポンスの意味を表示する3桁
 
 ![image](https://github.com/Ouichi/Task5/assets/140411621/0dbf4ec7-b870-44b0-9594-f5b305736fb1)
 
+**<details><summary>ステータスライン</summary>**
+
+- ステータス行は「HTTPのバージョン」と「HTTPステータスコード」から構成されます。ステータス行は常に1行です。
+
+
+  ```rb
+  HTTP/1.1 200
+  ```
+
+</details>
+
 **<details><summary>レスポンスヘッダー</summary>**
 
-HTTPステータスラインに書ききれないレスポンスの情報
+- HTTPステータスラインに書ききれないレスポンスの情報
+
+
+  ```rb
+  Content-Type: text/html;charset=UTF-8
+  Content-Language: ja
+  Transfer-Encoding: chunked
+  Date: Sun, 04 Apr 2021 02:17:23 GMT
+  Keep-Alive: timeout=60
+  Connection: keep-alive
+  ```
 
 </details>
 
 **<details><summary>レスポンスボディ</summary>**
 
-ホームページの中身
+- ホームページの中身
+
+  
+  ```rb
+  <!DOCTYPE html>
+   <html>
+    <head>
+          --------------------        省略        ----------------------------
+  <body>
+   <h1>testTitle</h1>
+    <table>
+    <thead>
+     <tr>
+      <th>body</th>
+     </tr>
+      <tbody>
+       <tr>
+        <td>test</td>
+       </tr>
+      </tbody>
+     </table>
+    </html>
+  ```
 
 </details>
