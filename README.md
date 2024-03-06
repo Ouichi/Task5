@@ -51,6 +51,47 @@
 
 **<details><summary>クエリ文字列とパス変数の違い</summary>**
 
+- クエリ文字列：特定のリソースを操作し取得する際に必要な情報を入れる
+- パス変数：測定のリソースを識別するために必要な情報を入れる
+
+  https://*example*.com/pathparameter/`{pathparameter}`?`queryparameter1=hogehoge&queryparameter2=fugafuga`
+
+  
+  1. ドメインの後、？の前にくるのがパスパラメータ
+  1. ？の後ろに来るのがクエリパラメータ
+  
+
+</details>
+
+**<details><summary>HTTPメソッド</summary>**
+
+- GET：
+
+  指定したリソースの表現をリクエストする。GETを使用するリクエストはデータの取り込みに限る
+- POST：
+
+  指定したリソースに実体を送信するために使用され、サーバー上の状態を変更したり、副作用が発生する
+- PUT:
+
+  対象リソースの現在の表現全体をリクエストのペイロードで置き換える
+- PATCH：
+
+  リソースを部分的に変更するために使用する
+- DELETE：
+
+  指定したリソースを削除する
+  
+
+</details>
+
+**<details><summary>リクエストヘッダー</summary>**
+
+  WEBコンテンツの伝送に用いられるHTTPで、クライアントからサーバへの要求であるHTTPリクエストの前半にある制御情報を記した領域のこと
+
+</details>
+
+**<details><summary>リクエストヘッダー</summary>**
+
 
 
 </details>
